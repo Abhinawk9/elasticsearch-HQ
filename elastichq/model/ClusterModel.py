@@ -57,7 +57,7 @@ class ClusterModel(db.Model):
         return False
 
 
-class ClusterDTO(ma.ModelSchema):
+class ClusterDTO(ma.SQLAlchemySchema):
     """
     Generic data transfer object for a cluster.
 
